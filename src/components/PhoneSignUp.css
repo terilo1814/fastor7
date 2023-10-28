@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 100vw;
+    background-color: white;
+}
+
+.sign-otp-container {
+    width: 30%;
+
+}
+
+@media (max-width:769px) {
+    .sign-otp-container {
+        width: 80%;
+
+    }
+
+}
+
+.heading1 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 26px;
+    color: #1E232C;
+    font-weight: 700;
+    text-align: left;
+
+
+}
+
+.heading2 {
+    color: #8391A1;
+    font-family: 'Urbanist', sans-serif;
+    margin-top: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mobile-inp {
+    border-radius: 8px;
+    background-color: #f9f8fa;
+    padding: 0.8rem;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #DADADA
+}
+
+.btn-send {
+    color: #FFFFFF;
+    background-color: rgb(245, 77, 77);
+    width: 100%;
+    max-width: 300px;
+    border-radius: 6px;
+    padding: 0.8rem;
+    margin-top: 20px;
+    font-size: large;
+    border: none;
+}
+
+.btn-send:hover {
+    cursor: pointer;
+}
